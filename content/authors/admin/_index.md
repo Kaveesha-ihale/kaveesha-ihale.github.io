@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Kaveesha
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Kaveesha Nirmani Ihala Kodippili
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Kaveesha Nirmani
+last_name: Ihala Kodippili
 
 # Status emoji
 status:
@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Student @ University of Illinois, Chicago
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
+  - name: UIC
     url: https://openai.com/
 
 # Social network links
@@ -47,9 +47,9 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Inorgnanic Chemistry
+  - Theoretical Chemistry
+  - Praditha
 
 education:
   - area: PhD Artificial Intelligence
@@ -183,4 +183,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Praditha thamai Machn Jeewithe !!!!!!!!!!
