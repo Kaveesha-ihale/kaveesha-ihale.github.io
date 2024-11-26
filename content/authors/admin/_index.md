@@ -11,7 +11,7 @@ last_name: Ihala Kodippili
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 👩‍🔬
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,27 +20,27 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: PhD Student @ University of Illinois, Chicago
+role: Teaching Assistant and PhD Student @ University of Illinois, Chicago
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: UIC
-    url: https://openai.com/
+  - name: University of Illinois, Chicago
+    url: https://chem.uic.edu
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:ikknirmani@gmail.com'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/kavee_blinkz/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/kaveesha-ihale
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/kaveesha-ihalakodippili/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
@@ -49,19 +49,19 @@ profiles:
 interests:
   - Inorgnanic Chemistry
   - Theoretical Chemistry
-  - Praditha
+  - Quantum Chemistry
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc Computational Chemistry (Reading)
+    institution: University of Illinois, Chicago
+    date_start: 2023-08-05
+    date_end: 2025-04-31
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
+  - area: BSc in 
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
     date_end: 2020-12-31
@@ -178,9 +178,4 @@ awards:
     awarder: datacamp
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
-
-## About Me
-
-Praditha thamai Machn Jeewithe !!!!!!!!!!
+      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific 
