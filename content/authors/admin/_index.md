@@ -1,186 +1,132 @@
 ---
-# Display name
-title: Kaveesha
-
-# Name pronunciation (optional)
+title: Kaveesha Ihala Kodippili
 name_pronunciation: Kaveesha Nirmani Ihala Kodippili
-
-# Full name (for SEO)
 first_name: Kaveesha Nirmani
 last_name: Ihala Kodippili
-
-# Status emoji
 status:
-  icon: 👩‍🔬
-
-# Is this the primary user of the site?
+  icon: 🧪
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
-
-# Role/position/tagline
-role: Teaching Assistant and PhD Student @ University of Illinois, Chicago
-
-# Organizations/Affiliations to display in Biography blox
+role: PhD Student in Chemistry
 organizations:
-  - name: University of Illinois, Chicago
+  - name: University of Illinois Chicago
     url: https://chem.uic.edu
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:ikknirmani@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/kavee_blinkz/
   - icon: brands/github
     url: https://github.com/kaveesha-ihale
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/kaveesha-ihalakodippili/
+  - icon: brands/instagram
+    url: https://www.instagram.com/kavee_blinkz/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Inorgnanic Chemistry
-  - Theoretical Chemistry
-  - Quantum Chemistry
+  - Semiconductor quantum dots
+  - Nanomaterials synthesis
+  - Doped semiconductor systems
+  - Core-shell nanostructures
+  - Molecular modeling and theoretical chemistry
+  - Structure-property relationships
 
 education:
-  - area: MSc Computational Chemistry (Reading)
-    institution: University of Illinois, Chicago
-    date_start: 2023-08-05
-    date_end: 2025-04-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: BSc in 
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
+  - area: PhD in Chemistry
+    institution: University of Illinois Chicago
+    date_start: 2023-08-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Research focused on semiconductor nanomaterials, quantum dot synthesis, dopant chemistry, and mechanism-driven materials design.
+  - area: MSc in Computational Chemistry
+    institution: University of Illinois Chicago
+    date_start: 2023-08-01
+    date_end: 2025-04-30
+    summary: |
+      Graduate training in computational and theoretical chemistry with emphasis on connecting molecular-level simulations to experimentally relevant materials systems.
+  - area: BSc in Chemistry
+    institution: Add your undergraduate institution here
+    date_start: 2018-01-01
+    date_end: 2022-12-31
+    summary: |
+      Add a short summary here with GPA, thesis title, honors, or relevant coursework.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+work:
+  - position: Teaching Assistant
+    company_name: University of Illinois Chicago
+    company_url: https://chem.uic.edu
+    company_logo: ''
+    date_start: 2023-08-01
+    date_end: ''
+    summary: |-
+      Responsibilities include:
+      - Supporting undergraduate chemistry instruction and student learning.
+      - Assisting with laboratory, discussion, and course-related teaching activities.
+      - Communicating scientific concepts clearly and effectively in classroom settings.
+  - position: Graduate Researcher
+    company_name: University of Illinois Chicago
+    company_url: https://chem.uic.edu
+    company_logo: ''
+    date_start: 2023-08-01
+    date_end: ''
+    summary: |-
+      Research highlights include:
+      - Investigating low-temperature synthesis routes for Cu-doped CdTe quantum dots using cluster-based nucleation strategies.
+      - Developing ZnTe/ZnMnS core-shell systems with target optical absorption near 400 nm.
+      - Applying theoretical and molecular modeling tools to interpret nanoscale chemistry and ligand-controlled behavior.
+
 skills:
-  - name: Technical Skills
+  - name: Research Techniques
+    items:
+      - name: Nanocrystal synthesis
+        description: Quantum dots, doped systems, and colloidal nanomaterials
+        icon: beaker
+      - name: Spectroscopic analysis
+        description: Optical and electronic characterization of semiconductor systems
+        icon: magnifying-glass
+      - name: Molecular modeling
+        description: Computational chemistry and simulation-driven interpretation
+        icon: cpu-chip
+      - name: Scientific writing
+        description: Manuscripts, posters, presentations, and research communication
+        icon: pencil-square
+  - name: Software & Tools
     items:
       - name: Python
-        description: ''
-        percent: 80
+        description: Data analysis, visualization, and scientific workflows
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
+      - name: Gaussian / DFT workflows
+        description: Add the packages you use most often here
+        icon: command-line
+      - name: Origin / Excel / plotting
+        description: Publication-quality analysis and figure preparation
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: LaTeX
+        description: Technical writing and report preparation
+        icon: document-text
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: Research Portfolio Website
+    date: '2026-04-05'
+    awarder: Personal Academic Initiative
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Built a GitHub-deployable academic portfolio to present research, projects, and professional profile in a clean and modern format.
+  - title: Add Fellowship, Scholarship, or Award Here
+    date: '2025-01-01'
+    awarder: Your Institution
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Replace this placeholder with a real award, travel grant, fellowship, scholarship, or recognition.
 ---
 
 ## About Me
 
-Praditha thamai Machn Jeewithe !!!!!!!!!!
+I am a chemistry researcher interested in how **synthetic strategy, local structure, and surface chemistry** determine the behavior of semiconductor nanomaterials. My work combines **hands-on materials synthesis**, **advanced characterization**, and **theory-guided interpretation** to uncover the chemistry behind nanoscale function.
+
+I am especially motivated by questions that connect **molecular design** to **electronic, magnetic, and optical behavior**, and I enjoy building research projects that are both mechanistically rigorous and experimentally meaningful.

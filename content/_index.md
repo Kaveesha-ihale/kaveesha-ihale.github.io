@@ -1,20 +1,17 @@
 ---
-# Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2026-04-05
 type: landing
 
 design:
-  # Default section spacing
-  spacing: "6rem"
+  spacing: "5rem"
 
 sections:
   - block: resume-biography-3
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
+      text: |-
+        I am a **Chemistry PhD student** focused on the synthesis, characterization, and molecular-level understanding of semiconductor nanomaterials. My research connects **quantum dot synthesis**, **dopant chemistry**, and **computational modeling** to understand how structure, surface chemistry, and synthetic conditions shape electronic and optical properties.
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -23,29 +20,51 @@ sections:
       background:
         color: black
         image:
-          # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
+            brightness: 0.5
           size: cover
           position: center
           parallax: false
   - block: markdown
+    id: research
     content:
-      title: '📚 My Research'
+      title: 'Research Vision'
+      subtitle: 'Chemistry, nanomaterials, and mechanism-driven design'
+      text: |-
+        My work is centered on **semiconductor quantum dots and nanoscale materials chemistry**. I am especially interested in how precursor design, ligand environments, cluster-mediated nucleation, and dopant incorporation govern final material performance.
+
+        Current directions include:
+
+        - **Cu-doped CdTe quantum dots** synthesized through low-temperature, cluster-seeded routes.
+        - **ZnTe/ZnMnS core-shell nanostructures** engineered to shift core absorption while preserving successful shell growth.
+        - **Molecular and theoretical modeling** of chemically complex systems to connect synthesis with microscopic behavior.
+
+        I enjoy building research stories that move from **synthetic strategy** to **spectroscopy, magnetism, and structure-property relationships**.
+    design:
+      columns: '1'
+  - block: markdown
+    content:
+      title: 'What I Do'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        **Synthesis**  
+        Design and optimize low-temperature routes for doped and core-shell semiconductor nanocrystals.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        **Characterization**  
+        Use spectroscopy and materials characterization to probe composition, electronic structure, and dopant behavior.
+
+        **Computation**  
+        Apply molecular modeling and theoretical tools to understand ligand effects, interfaces, and nanoscale assembly.
+
+        **Communication**  
+        Turn complex chemistry into clear scientific narratives for talks, posters, manuscripts, and collaborative research.
     design:
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Featured Research Highlights
       filters:
         folders:
           - publication
@@ -55,8 +74,8 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
-      text: ""
+      title: Selected Publications & Writeups
+      text: "A snapshot of current projects, manuscripts, and research summaries."
       filters:
         folders:
           - publication
@@ -64,26 +83,13 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
     id: news
     content:
-      title: Recent News
+      title: Latest Updates
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
       count: 5
-      # Filter on criteria
       filters:
         author: ""
         category: ""
@@ -92,34 +98,21 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ""
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: date-title-summary
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+  - block: markdown
+    id: contact
     content:
-      title: 👉 Build your own academic website like this
+      title: 'Let’s Connect'
+      subtitle: ''
       text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
+        I am always happy to connect about **nanomaterials chemistry**, **quantum dot synthesis**, **computational chemistry**, and interdisciplinary collaborations.
 
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-        
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        Reach me by email at **ikknirmani@gmail.com**, or connect via **LinkedIn**, **GitHub**, and **Google Scholar** from the profile links above.
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+      columns: '1'
 ---

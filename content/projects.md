@@ -1,18 +1,16 @@
 ---
 title: 'Projects'
-date: 2024-05-19
+date: 2026-04-05
 type: landing
 
 design:
-  # Section spacing
   spacing: '5rem'
 
-# Page sections
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Selected Research Projects
+      text: Research themes spanning synthesis, characterization, and molecular-level understanding of semiconductor nanomaterials.
       filters:
         folders:
           - project
