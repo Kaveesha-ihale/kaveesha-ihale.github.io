@@ -1,5 +1,5 @@
 ---
-title: Research Summary: Cluster-Seeded Cu-Doped CdTe Quantum Dots
+title: "Research Summary: Cluster-Seeded Cu-Doped CdTe Quantum Dots"
 authors:
   - admin
 date: 2026-04-05

@@ -1,5 +1,5 @@
 ---
-title: Research Summary: Optical Tuning in ZnTe/ZnMnS Core-Shell Systems
+title: "Research Summary: Optical Tuning in ZnTe/ZnMnS Core-Shell Systems"
 authors:
   - admin
 date: 2026-04-05
